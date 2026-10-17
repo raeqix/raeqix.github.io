@@ -49,6 +49,21 @@ nav a {
 nav a:hover {
     color: #00bfff !important;
 }
+    .project-card {
+    background: #101827;
+    border: 1px solid #00bfff;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 700px;
+    margin: 25px auto;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 191, 255, 0.35);
+}
   </style>
 </head>
 <body>
@@ -69,6 +84,7 @@ nav a:hover {
   
 <section id="projects" style="padding: 40px 20px;">
   <h2 style="color: #00bfff;">Featured Projects</h2>
+  <div class="project-card">
   <h3>Summit Retail | Data Management & Quality Audit</h3>
   <p>
     Cleaned and standardized retail customer data using
@@ -81,6 +97,7 @@ nav a:hover {
      style="color: #00bfff;">
     View Project on GitHub →
   </a>
+</div>
 </section>
     
 <section id="about" style="padding: 40px 20px; max-width: 800px; margin: auto;">
